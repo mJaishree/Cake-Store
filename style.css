@@ -1,0 +1,75 @@
+body {
+    font-family: 'Salsa', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rosybrown;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    background-image: url("bg.jpg");
+    height: 1200px;
+}
+
+.menu-section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%; 
+    color: #ddd;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cart-section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 40%; 
+    color: #ddd;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.menu-item h3 {
+    color: rosybrown; /* cake names */
+}
+
+h2 {
+    color: rosybrown;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rosybrown;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
